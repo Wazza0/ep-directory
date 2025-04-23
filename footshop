@@ -1,0 +1,29 @@
+-------------------------------
+# Footshop raffle stock: 
+-------------------------------
+
+**EP: https://releases.footshop.com/api/raffles/ID_OF_THE_RAFFLE**
+
+Response: 
+
+{
+  "sizeSets": {
+    "Men": {
+      "sizes": [
+        {
+          "us": "10",
+          "eur": "44",
+          "uk": "9",
+          "cm": "28",
+          "pieces": 15,
+          "ean": "4550457542289",
+          "id": "fcd411ea-dd64-11ee-9d2c-167cb1cfcc11"
+        }
+        // Additional sizes...
+      ],
+      "name": "Men"
+    }
+    // Other categories like Unisex, Women, Kids...
+  }
+}
+____________________________________________________________________
