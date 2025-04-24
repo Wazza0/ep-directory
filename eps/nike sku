@@ -1,0 +1,7 @@
+---------------------------------------------------------------|
+nike SKU monitor                                               |
+---------------------------------------------------------------|
+
+
+sku_test = "FJ0704-100,DO6485-600
+url = f"https://api.nike.com/product_feed/threads/v2?filter=language(it)&filter=marketplace(IT)&filter=channelId(d9a5bc42-4b9c-4976-858a-f159cf99c647)&filter=productInfo.merchProduct.styleColor({sku_test})"
